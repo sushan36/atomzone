@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "arcane-legacy-478514-s1",
+  "private_key_id": "743547be9b11c6f074bd325c761c78915288270e",
+  "private_key": "1AhibqhVW1DkpJ2E-uc5QoZmL_9QXRcvw0d4kZWFGKnM/\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0dl+II+Gojf+K\nD9QeNmpUToYqCLBV4aUGeHnoO1V2OqGakFH4X3hSTxrloNxS6rscgRulAcRX5TsP\nrbHMVrkGrNrzLcn0etOlKcffXA1REfziXWc78MvYVo9WRVhLSFPoDad8F3m1ExYp\n6swf7uH3dDiF42/AbP+RoYQIbDYxyfx0bu3hbhVMlTreTy/m657VH94M6xCj+cYa\n/nFttAwdyixop2ms7ankcovzkoOXDs7RpOMMDk8R+QOL4MShNGu/FXO0W46oN59j\nALIjeTeWwsK4uMXSgNSIZP87tLxeTZrQN5+d5NjYhUf4XZTN3E5day2Cnxv+QeWu\nYSR54ZklAgMBAAECggEABf6co8gVWeUFpQ9ri2lhVNWa7VCGkwPA2Jst6YH3D8tY\nzOqYXnjFZW6NRS13xCVZ+9NqGKwbWpQZxyaM7m2/DbK2Pze5Kq7d0vG1Wv0S0CuZ\ny+cwY7RXASO29TWufimz59R0SNH60AIHTXMoPrNPvEmXCxOIBctZHfxQh3sYvcSa\ndqxoa2d9L1OAbyLswP4d4AC3l4SHsGvqWnN80LQ3aS3l+n9A5Zbsyvh7nP7hz2IK\nnU2hdxhbGbMpjgnDQ46n+4TkJFvUUYzhOpUzFLRDIA6YUXIuvr9Tsb1n75xsfY8I\nuh4REpfHPC/uh342BMud82pXGndbtQQ+C4vDaVsWoQKBgQD5m2Mrh3whZEAQQMTb\nCiV9SJ7C/n4/qFy7P/YIAJxNnJGq7qu3tLb98xk0QQwyzdZfzZPA1NeOowUlIVyA\nONZfvF56GzIYJa9QrsamEYAkiOjLeEE1FN/oZ2nGGLFA584PVELih0ya41B8ifBB\naNjZ0IaI2PGIaJeLhPAIA1rezQKBgQC5FZ8XoN1OAWq21C3MdtYFjDMSU6xK0J7z\nSzw9MEseagS/DHoPta1HLYYxxrFChq4lAmRMlNbF1g0A9wDDQL930qJRh0qLZZTM\nW0arTW9GhbYsZifQmhtnAXRh0muKSBraBL2uyC1838jgqm4Wt0D8e+zuapgJXmcU\n7Ks1BqLzuQKBgQCirbRXlWjAdo8OSLhELfu7CI54ddcgdAFkBM677nHwX1/M8Nq3\n0y8EmeDOXqqtndve+qQWpGGM1BCxX2njI6gMIz/MA1eFx2HYiuBrMbK7nQNkQQ72\nopE/7c5RTpyPucRh1z/0VcwGkqpNULVmXAghBbf5DrN0fP5v7wdloZIi7QKBgQC3\nUzU74DiUFU8wPMYIagTfhdjoZDyZ9j4a2gCW0wj03SpKWf9lJBy4Dd2H3DijnmdL\nfSz/tcVuO/Cxbfcxbya3dskUXB94J2vVZut+rbp0bejd3Wm+c4aE5qnyYsvmMjl2\njY+cWebEc5yy+90DXwxdihpKpQZm8TzFOw7x/NrW8QKBgHgVlNKhFVM8Zyk2jpGk\nhiNtIUZCGE7fl6XNMU4VJ4iP/fk4Ufr8Fesj1Tk7pqdubPfK9RkNhZlcO5iUQxo4\nBmoASAGry6FdKybJS6o+DMObnnt7jKEAajcPIlfrSIY+ZZ0K3ubvqgCa1ef87x7G\n++QqorK7U9cvyR0thR0llUbu\n-----END PRIVATE KEY-----\n",
+  "client_email": "atomzone-logger@arcane-legacy-478514-s1.iam.gserviceaccount.com",
+  "client_id": "102993098117159004699",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/atomzone-logger%40arcane-legacy-478514-s1.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
