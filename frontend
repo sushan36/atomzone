@@ -1,0 +1,47 @@
+<!-- public/index.html -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>AtomZone Demo</title>
+</head>
+<body>
+  <h1>AtomZone — Demo</h1>
+
+  <label>Sender: <input id="sender" value="rishith@example.com"></label><br>
+  <label>Subject: <input id="subject" value="Meeting at 4 PM?"></label><br>
+  <label>Requested Time: <input id="time" value=""></label> (ISO e.g. 2025-11-17T16:00:00)<br>
+  <label>User Busy? <select id="userBusy"><option value="">auto</option><option value="true">Busy</option><option value="false">Free</option></select></label><br>
+  <button id="send">Simulate Email</button>
+
+  <pre id="log"></pre>
+
+  <script>
+    async function postJSON(url, body) {
+      const r = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body)
+      });
+      return r.json();
+    }
+
+    document.getElementById("send").onclick = async () => {
+      const sender = document.getElementById("sender").value;
+      const subject = document.getElementById("subject").value;
+      const requestedTime = document.getElementById("time").value;
+      const userBusyStr = document.getElementById("userBusy").value;
+      const userBusy = userBusyStr === "" ? undefined : userBusyStr === "true";
+
+      const check = await postJSON("/api/check", { requestedTime, userBusy });
+      const reply = await postJSON("/api/reply", {
+        sender, subject, requestedTime,
+        free: check.free
+      });
+
+      document.getElementById("log").textContent =
+        "Check result: " + JSON.stringify(check) + "\nReply result: " + JSON.stringify(reply, null, 2);
+    };
+  </script>
+</body>
+</html>
